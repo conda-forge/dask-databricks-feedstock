@@ -1,5 +1,5 @@
 {% set name = "dask-databricks" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dask_databricks-{{ version }}.tar.gz
-  sha256: b8e668091ef432b21538cdb1e26abac795e25b8413db1199e1f290b6a344b4d5
+  sha256: b348182028cb01658222d477a84acd658f506948dad2b1f7275d4524840f2332
 
 build:
   noarch: python
