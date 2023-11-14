@@ -22,6 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.9
+    - bokeh <=3.2.2
     - click >=8.1
     - dask-core
     - rich
